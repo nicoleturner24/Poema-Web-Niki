@@ -1,8 +1,8 @@
 body {
   --color-bg: #faebd7;
   --color-text: #24221f;
-  --color-link: #a5271b;
-  --color-link-hover: #69140c;
+  --color-link:white;
+  --color-link-hover: #1d0b09;
   font-family: halyard-display, sans-serif;
 }
 
@@ -12,8 +12,8 @@ a:focus {
 }
 
 .frame {
-  color: #a5271b;
-  font-weight: 500;
+  color: black;
+  font-weight: 900;
 }
 
 .frame__title,
