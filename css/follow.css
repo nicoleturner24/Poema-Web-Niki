@@ -1,9 +1,9 @@
 body {
-  --color-bg: #faebd7;
-  --color-text: #24221f;
+  --color-bg: #123618;
+  --color-text: #faf9f8;
   --color-link:white;
   --color-link-hover: #1d0b09;
-  font-family: halyard-display, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a:hover,
@@ -22,9 +22,10 @@ a:focus {
 }
 
 .content__headline {
-  font-size: 0.9rem;
+  font-size: 5rem;
   margin: 2rem 0 1rem;
   font-weight: 700;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -32,7 +33,7 @@ a:focus {
   font-size: 2.5vw;
   margin: 3rem auto 5rem;
   line-height: 1.25;
-  font-family: halyard-display, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
   font-weight: 300;
   backface-visibility: hidden;
   -webkit-user-select: none;
@@ -75,7 +76,7 @@ a:focus {
   perspective-origin: 50% 0%;
 }
 .debug .fold-top {
-  background: #dadada;
+  background: #1d9127;
 }
 .debug .fold-bottom {
   background: #dadada;
@@ -103,7 +104,7 @@ a:focus {
 }
 .fold-center {
   height: 50vh;
-  width: 50vw;
+  width: 80vw;
 }
 
 .fold {
